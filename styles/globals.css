@@ -45,7 +45,7 @@ header a {
 
 .btn {
   display: inline-block;
-  background: steelblue;
+  background: rgb(89, 142, 240);
   color: #fff;
   border: none;
   padding: 8px 16px;
