@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  margin: 15px 0;
+  margin: 20px 0;
   line-height: 1.8;
 }
 
@@ -26,9 +26,9 @@ img {
 }
 
 header {
-  background: rgb(19, 39, 128);
+  background: rgb(82, 102, 189);
   color: #fff;
-  padding: 5px;
+  padding: 35px;
   margin-bottom: 40px;
 }
 
@@ -42,6 +42,17 @@ header a {
   overflow: auto;
   padding: 0 10px;
 }
+.article {
+  display: grid;
+  margin: 26px auto;
+  max-width: 750px;
+  font-size: 14px;
+  text-align: center;
+ background: rgb(228, 231, 223);
+ 
+
+}
+
 
 .btn {
   display: inline-block;

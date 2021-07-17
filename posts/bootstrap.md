@@ -5,18 +5,40 @@ excerpt: 'Both Tailwind and Bootstrap are very popular CSS frameworks. In this a
 cover_image: '/images/posts/img2.jpg'
 ---
 
-Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
-haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter
-manus. Munere in exhalat, ferre sed [habe quaeque saepe](http://ne.org/fretum)
+For every company on the market today, user experience is the number one priority. Even the brief you receive on your project as a developer mentions the simplicity of the user interface it is supposed to have.In 2021, the frontend is expanding far too quickly. It is difficult and time-consuming to create CSS from scratch for each project. Furthermore, deciding on the best CSS framework is a difficult task.
+
+Tailwind isn't all that unlike to writing simple CSS, which isn't always a negative thing. A framework like Bootstrap won't help much if you're dealing with a design that deviates from the usual; you'll end up authoring most of your own CSS. Because of the utility classes in Tailwind, this is made easier. For specific landing pages or very design-focused pages/webapps, a utility-first framework like Tailwind is perfect. Tailwind CSS also have a lot of prebuilt templates based on it, like the official Tailwind UI among others.
+
+In Bootstrap, you use a few descriptive classes to completely transform a given part of your code into cards, toast notifications, headers, form inputs, and so on. In Bootstrap, a simple class encapsulates a large number of CSS properties and behaviours. Prototyping with Bootstrap is extremely simple, and it is possible to create a usable and “decently pretty” site in a matter of hours. Doing the same on Tailwind CSS will take you triple the time.
+
+No matter what CSS framework you can think of, no one has become so successful like Bootstrap. It started as a branch of Twitter internal design tools almost a decade ago, but it was so good dealing with mobile viewports and offering an understandable grid system that it become widely adopted across multiple sites.
+
+By using utility classes, we can do all of our styling without leaving our HTML. So, instead of using CSS class names to structure our components, we'd use our frontend framework to extract them. 
+
+Before we dive in, you need to understand the 3 different kinds of CSS frameworks. It’s important to make the right choice.
+
+1. Preprocessors & CSS transformers - SASS, Less, Stylus and PostCSS
+2.  UI Kit & Component-based CSS frameworks - Bootstrap, Foundation, Skeleton, Materialize, Milligram and Bulma.
+3. Atomic / Utility-first CSS frameworks - React with styled-components and Tailwind CSS.
+
+Tailwind can be thought of as a low-level framework for applying CSS. It won't magically transform a form input like Bootstrap, but it will let you use a variety of classes to change the details of the look of the input, such as the placeholder colour, or rotate a box in the background.
+
+Now, you may think that writing an endless list of classes instead of a convenient card is overkill, specially when your site has a lot of “components” like graphs, images, code blocks, quotes, galleries, interaction, and similar. That’s were [component extraction](https://tailwindcss.com/docs/extracting-components), is for: transforming that endless list of classes into one you can easily name as you want.
+
+ Munere in exhalat, ferre sed [habe quaeque saepe](http://ne.org/fretum)
 verba caput ferarum _nubila_? Patriam Cyparisse tamen, **saxum** fide postponere
 pavida ne omnes etiam, atque. Sonuit omina sed sine haerebat illic fit a mora
 in.
 
-1. Serrae enim Etruscam aquis
-2. Et premis et flumine frontem minatur oppressos
-3. Inquam rector Icarus possum vim tumulo propiusque
-4. Vulnus se Latreus
-5. Aptumque bis
+
+**The best framework depends on 3 things: design, time, team.**
+
+1. If design is common / no design: Bulma or Bootstrap
+2. If design is complex & I have time: Tailwind CSS
+3. If design is complex & I don’t have time: Bulma + a lot of custom CSS
+4. If I need to create a design system: Tailwind CSS
+
+
 
 ## Turpius Aegides membris colat volentes fallere
 

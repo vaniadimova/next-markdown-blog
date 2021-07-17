@@ -4,11 +4,28 @@ import Link from 'next/link'
 export default function Header() {
     return (
         <header>
-            <div className="container">
-                <Link href='/' passHref>
-                    <h2>V  Blogs</h2>
+              < div className="container">  
+              <nav>
+              <ul>
+            <li>
+                <Link href="/">
+                    <a><u>VBlog</u></a>
                 </Link>
-            </div>
+            </li>
+            <br></br>
+            <li>
+                <Link href="/about">
+                    <a><u>About</u></a>
+                </Link>
+            </li>
+           </ul>
+
+              </nav>
+        
+        </div>
+
+         
+           
         </header>
     )
 }

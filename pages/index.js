@@ -34,7 +34,7 @@ const posts = files.map(filename => {
 
 const {data:frontmatter} = matter(markdownWithMeta)
 
-    return {
+  return {
   slug,
   frontmatter,
 }
