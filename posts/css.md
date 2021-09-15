@@ -1,7 +1,7 @@
 ---
-title: "What's CSS?"
+title: "What is CSS?"
 date: 'May 7, 2021'
-excerpt: 'In this article we will look at the latest usage of   Cascading Style Sheets'
+excerpt: 'CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.'
 cover_image: '/images/posts/img4.jpg'
 ---
 
